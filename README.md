@@ -104,3 +104,26 @@ I think this cheat was not seen in class, but in my experience as a git user, I 
 Applies the stored changes in the stash into the working directory again.
 
 
+## Branching
+
+While we are working in a team, surely, we are going to need the use of branches, so we can modify our project or work, without affecting in other changes or features, for this, git provides us this commands.
+
+`$ git branch [-a]`
+Shows a listing of all local branches.
+
+`$ git checkout [-b][branch_name]`
+Switches our working directory to the specified branch, the __[-b]__ creates a new branch if it does not exist
+
+`$ git merge [from name]`
+It merges or joins two branches, the __[from name]__ to the current branch.
+
+`$ git branch -d [name]`
+When we merge a branch to another, the branch that has been merged, is now "useless", so we can remove thibranch if is already merged in any other.
+
+
+## Review
+
+To see, what we are doing in the project, who commited or did changes, git has this command.
+
+`$ git log [-n count]`
+Lists all the commits specified, for this, just replace __n__ for the limit wanted.
